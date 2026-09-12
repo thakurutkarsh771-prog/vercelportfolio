@@ -1,0 +1,52 @@
+export const portfolioData = {
+  personal: { name: 'Utkarsh', fullName: 'Utkarsh Singh', role: 'BCA Student & Full-Stack Developer', identity: 'BCA Student | Full-Stack Developer | Problem Solver', bio: 'I build interactive web experiences, learn computer science deeply, and turn ideas into real-world projects.', status: 'Available for opportunities', location: 'India' },
+  socials: { github: 'https://github.com/', linkedin: 'https://linkedin.com/', email: 'mailto:youremail@example.com' },
+  education: { degree: 'Bachelor of Computer Applications (BCA)', college: 'College information to be added', startYear: 'YYYY', endYear: 'YYYY', detail: 'Add your college name, location, and study timeline here.' },
+  skills: [
+    { category: 'Languages', icon: 'code', description: 'The building blocks I use to reason and create.', items: ['C', 'C++', 'JavaScript', 'Python'] },
+    { category: 'Frontend', icon: 'monitor', description: 'Interfaces that feel clear, responsive, and alive.', items: ['HTML', 'CSS', 'JavaScript', 'React', 'Angular', 'Tailwind CSS', 'Next.js'] },
+    { category: 'Backend', icon: 'server', description: 'Application logic, APIs, and reliable data flow.', items: ['Node.js', 'Express.js'] },
+    { category: 'Databases', icon: 'database', description: 'Working with structured and document-based data.', items: ['MongoDB', 'MySQL', 'SQL'] },
+    { category: 'Mobile', icon: 'smartphone', description: 'Native Android exploration with modern tooling.', items: ['Kotlin', 'Jetpack Compose', 'Android Studio'] },
+    { category: 'Tools', icon: 'wrench', description: 'The tools that help turn ideas into shipped work.', items: ['Git', 'GitHub', 'VS Code', 'MySQL Workbench', 'MongoDB tools', 'Power BI'] },
+  ],
+  learning: [
+    { title: 'Advanced React', status: 'Practicing', description: 'Building stronger component systems and application patterns.' },
+    { title: 'Full-Stack Development', status: 'Learning', description: 'Connecting thoughtful interfaces to useful backend systems.' },
+    { title: 'DSA & Algorithmic Thinking', status: 'Practicing', description: 'Sharpening problem solving through fundamentals and repetition.' },
+    { title: 'Operating Systems & DBMS', status: 'Learning', description: 'Deepening the computer science foundations behind software.' },
+    { title: 'Three.js & React Three Fiber', status: 'Exploring', description: 'Creating interactive 3D experiences without losing usability.' },
+    { title: 'AI / API Integration', status: 'Exploring', description: 'Learning how intelligent services can support real products.' },
+  ],
+  journey: [
+    { title: 'Programming Foundations', stack: 'C → C++', description: 'Learning to think in systems, logic, and structured programs.' },
+    { title: 'Web Development', stack: 'HTML → CSS → JavaScript', description: 'Turning ideas into interfaces that work in the browser.' },
+    { title: 'Frontend Development', stack: 'Angular → React → Tailwind → Next.js', description: 'Exploring component-driven interfaces and modern architecture.' },
+    { title: 'Backend Development', stack: 'Node.js → Express → MongoDB → SQL', description: 'Building the APIs and data layers behind useful applications.' },
+    { title: 'Mobile Development', stack: 'Kotlin → Jetpack Compose → Android Studio', description: 'Taking product thinking beyond the browser.' },
+    { title: 'Computer Science', stack: 'DSA → OS → DBMS', description: 'Strengthening the fundamentals that make better engineers.' },
+    { title: 'Advanced / Exploring', stack: 'Three.js → R3F → AI APIs', description: 'Growing toward more expressive, intelligent digital worlds.' },
+  ],
+  projects: [
+    { title: 'Fledger', type: 'Backend / Full-stack in progress', description: 'A banking-system project focused on a scalable backend architecture. The application connects Node.js and Express with MongoDB as it grows into a larger product.', tech: ['Node.js', 'Express.js', 'MongoDB'], accent: 'lime', github: '#', demo: '#' },
+    { title: 'Phentonic AI', type: 'Android application', description: 'An AI-style student assistant concept that responds to student questions and creates useful motivational and learning interactions.', tech: ['Kotlin', 'Jetpack Compose', 'Android Studio'], accent: 'coral', github: '#', demo: '#' },
+    { title: 'Smart Ambulance Route Optimization', type: 'Hackathon / Innovation project', description: 'A concept for smart ambulance routing, green corridor optimization, live vitals transmission, hospital pre-admission, and AI-assisted triage preparation.', tech: ['Routing', 'Live data', 'AI-assisted workflow'], accent: 'blue', github: '#', demo: '#' },
+    { title: 'Developer Portfolio', type: 'Evolving personal project', description: 'This portfolio: a fast, responsive space for coding, computer science, projects, and the journey toward full-stack development.', tech: ['React', 'Vite', 'Tailwind CSS', 'Three.js', 'R3F'], accent: 'purple', github: '#', demo: '#' },
+  ],
+  certificates: [
+    { title: 'Web Rachaita', recipient: 'Utkarsh Singh', program: 'BCA', organization: 'Not available in extracted certificate text', date: 'Not available', file: 'utkarsh-certificate-1.pdf', type: 'pdf' },
+    { title: 'Graphics Horizon', recipient: 'Utkarsh Singh', program: 'BCA', organization: 'Not available in extracted certificate text', date: 'Not available', file: 'utkarsh-certificate-2.pdf', type: 'pdf' },
+    { title: 'Web Rachaita', recipient: 'Utkarsh Singh', program: 'BCA', organization: 'Not available in extracted certificate text', date: 'Not available', file: 'utkarsh-certificate-3.pdf', type: 'pdf' },
+    { title: 'Certificate details to be verified', recipient: 'Not available', program: 'Not available', organization: 'Not available', date: 'Not available', file: 'certificate.pdf', type: 'pdf' },
+  ],
+  beyond: [
+    { title: 'DSA', items: ['Arrays', 'Objects', 'Functions', 'Algorithmic Thinking', 'Problem Solving'] },
+    { title: 'Computer Science', items: ['Operating Systems', 'Deadlocks', "Banker's Algorithm", 'DBMS', 'Computer Organization'] },
+    { title: 'Programming', items: ['C', 'C++', 'Python', 'JavaScript'] },
+  ],
+  achievements: [
+    { label: 'Hackathons', value: 'No verified event certificate found', description: 'Add a hackathon entry here when a certificate or confirmed event detail is available.' },
+    { label: 'Certifications', value: '4 certificates on file', description: 'Open the Certifications section to view the supplied PDF files and verified text.' },
+    { label: 'Milestones', value: 'Keep building', description: 'Projects, learning streaks, and meaningful progress belong here.' },
+  ],
+};
